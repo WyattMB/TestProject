@@ -5,3 +5,4 @@ from django.http import HttpResponse
 
 def testview(request):
     return HttpResponse("This is a test view and url for TestProject")
+
